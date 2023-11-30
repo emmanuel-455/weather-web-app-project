@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(images/pexels-francesco-ungaro-998641.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    color: white;
+    height: 100vh;
+    display: flex;
+}
+
+.body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.welcome-body {
+    background: rgba( 138, 138, 138, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.welcome {
+    width: 100%;
+    text-align: center;
+}
+
+
+span {
+    padding: 10px;
+    background: white;
+    color: black;
+    text-align: center;
+    margin: 4px;
+    font-size: 30px;
+    font-weight: 700;
+    width: 100%
+}
+
+.welcome-body p {
+    font-style: italic;
+    display:inline-block;
+    margin-top: 1rem;
+    letter-spacing: 9px;
+    font-size: 13px;
+    font-weight: 200;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.contact-content {
+    background: rgba( 138, 138, 138, 0.15 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: auto;
+    
+}
+
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
